@@ -1,0 +1,137 @@
+/* header top css */
+.header_top {
+    padding: 8px;
+}
+/* marquee */
+.marquee_wrraper {
+    background-color: #de1b3d;
+    color: #fff;
+}
+.primary {
+    background-color: #383186;
+}
+.group1 {
+    transition: 0.3s;
+    color: #ffa518
+}
+.group1:hover {
+    background-color: #ffa518;
+    color: #fff;
+}
+.group2 {
+    transition: 0.3s;
+    color: #686318;
+}
+.group2:hover {
+    background-color: #686318;
+    color: #fff;
+}
+.group3 {
+    transition: 0.3s;
+    color: #84154d;
+}
+.group3:hover {
+    background-color: #84154d;
+    color: #fff;
+}
+.group4 {
+    transition: 0.3s;
+    color: #098346;
+}
+.group4:hover {
+    background-color: #098346;
+    color: #fff;
+}
+.group5 {
+    transition: 0.3s;
+    color: #1399be;
+}
+.group5:hover {
+    background-color: #1399be;
+    color: #fff;
+}
+.group6 {
+    transition: 0.3s;
+    color: #8768de;
+}
+.group6:hover {
+    background-color: #8768de;
+    color: #fff;
+}
+.group7 {
+    transition: 0.3s;
+    color: #c40a2a;
+}
+.group7:hover {
+    background-color: #c40a2a;
+    color: #fff;
+}
+.group8 {
+    transition: 0.3s;
+    color: #098346;
+}
+.group8:hover {
+    background-color: #098346;
+    color: #fff;
+}
+.group9 {
+    transition: 0.3s;
+    color: #1f2937;
+}
+.group9:hover {
+    background-color: #1f2937;
+    color: #fff;
+}
+.group10 {
+    transition: 0.3s;
+    color: #1399be;
+}
+.group10:hover {
+    background-color: #1399be;
+    color: #fff;
+}
+.header_wrapper {
+    position: relative;
+}
+.menu_hidden {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.cover_img {
+    height: 575px !important;
+}
+.MuiSvgIcon-root {
+    width: 24px;
+    height: 24px;
+    fill: green;
+    display: inline-block;
+    align-self: center;
+}
+.notice_btn {
+    color: #fff !important;
+    transition: 0.3s;
+}
+.primary_btn:hover {
+    background-color: #6059a9;
+}
+@media screen and (max-width: 1023px) {
+    .header_wrapper {
+        justify-content: start !important;
+        padding: 23px;
+    }
+    .home_menu {
+        display: none !important;
+    }
+    [class*="group"] button {
+        border: none !important;
+        border-right: 0px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header_css{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
