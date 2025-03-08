@@ -8,7 +8,7 @@
     color: #fff;
 }
 .primary {
-    background-color: #383186;
+    background-color: #383186 !important;
 }
 .group1 {
     transition: 0.3s;
@@ -98,9 +98,6 @@
     top: 0px;
     right: 0px;
 }
-.cover_img {
-    height: 575px !important;
-}
 .MuiSvgIcon-root {
     width: 24px;
     height: 24px;
@@ -113,7 +110,10 @@
     transition: 0.3s;
 }
 .primary_btn:hover {
-    background-color: #6059a9;
+    background-color: #6059a9 !important;
+}
+.translate-btn {
+    padding: 8PX;
 }
 @media screen and (max-width: 1023px) {
     .header_wrapper {
