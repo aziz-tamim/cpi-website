@@ -77,7 +77,7 @@ const translations = {
         Notices: "নোটিশ",
         marqueenotice: "***শিক্ষার্থীদের অবগতির জন্য জানানো যাচ্ছে যে ১৮ মার্চ ২০২৫ ইং তারিখ থেকে পর্ব-মধ্য পরীক্ষা অনুষ্ঠিত হবে।",
         Notice: "নোটিশ",
-        midtermexams: "পর্ব-মধ্য পরীক্ষা সম্পর্কিত নোটিশ।",
+        midtermexams: "পর্ব-মধ্য পরীক্ষা সংক্রান্ত নোটিশ।",
         date1: "(১৮ মার্চ ২০২৫)",
         Noticeregarding: "কমপেক্ট পলিটেকনিক ইনস্টিটিউটের আইসিটি ক্লাবের ছাত্র প্রতিনিধি অনুমোদন সম্পর্কিত নোটিশ।",
         date2: "(২৬ ফেব্রুয়ারী, ২০২৫)",
@@ -96,7 +96,13 @@ const translations = {
         nationalanthem: "জাতীয় সংগীত",
         Emergencyhotline: "জরুরি হটলাইন",
         InstituteLocation: "ইনস্টিটিউট লোকেশন",
-        CollageLocation: "একাডেমি রোড - ৩৯০০, ফেনী, বাংলাদেশ।"
+        CollageLocation: "একাডেমি রোড - ৩৯০০, ফেনী, বাংলাদেশ।",
+        Sequential: "ক্রমিক",
+        Title: "শিরোনাম",
+        Releasedate: "প্রকাশের তারিখ",
+        Download: "ডাউনলোড",
+        NumberOne: "১",
+        NumberTwo: "২",
     },
     en: {
         campous: "Campus",
@@ -171,6 +177,12 @@ const translations = {
         Emergencyhotline: "Emergency Hotline",
         InstituteLocation: "Institute Location",
         CollageLocation: "Academy Road - 3900, Feni, Bangladesh.",
+        Sequential: "Sequential",
+        Title: "Title",
+        Releasedate: "Release date",
+        Download: "Download",
+        NumberOne: "1",
+        NumberTwo: "2",
 
     }
 };
