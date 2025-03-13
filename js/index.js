@@ -163,7 +163,15 @@ const translations = {
         Studentfacilities: "ছাত্র-ছাত্রীদের সুযোগ-সুবিধা",
         LibraryStudy: "লাইব্রেরি ও স্টাডি সেন্টার",
         Hostelfacilities: "হোস্টেলের সুবিধা",
-        Listallteachers: "সকল শিক্ষক শিক্ষিকামণ্ডলীর তালিকা"
+        Listallteachers: "সকল শিক্ষক শিক্ষিকামণ্ডলীর তালিকা",
+        anikpoddar: "অনিক পোদ্দার সরুজ",
+        kalamazad: "আবুল কালাম আজাদ",
+        porisalokmondoli: "সকল পরিচালকমন্ডলীর তালিকা",
+        ibrahimsumon: "ইব্রাহিম সুমন",
+        ashaduzzaman: "মোঃ আসাদুজ্জামান",
+        kaderpatwary: "আব্দুল কাদের পাটোয়ারী",
+        chandonbanik: "চন্দন বণিক",
+        BasudebMallik: "বাসুদেব মল্লিক",
     },
     en: {
         campous: "Campus",
@@ -305,6 +313,14 @@ const translations = {
         LibraryStudy: "Library and Study Centre",
         Hostelfacilities: "Hostel facilities",
         Listallteachers: "List of all teachers and teaching staff",
+        anikpoddar: "Anik Podder Soruj",
+        kalamazad: "Abul Kalam Azad",
+        porisalokmondoli: "List of Board of Directors",
+        ibrahimsumon: "Ibrahim Sumon",
+        ashaduzzaman: "Md. Asaduzzaman",
+        kaderpatwary: "Abdul Quader Patwary",
+        chandonbanik: "Chandon Banik",
+        BasudebMallik: "Basudeb Mallik",
     }
 };
 function setLanguage(language) {
