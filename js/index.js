@@ -173,6 +173,12 @@ const translations = {
         chandonbanik: "চন্দন বণিক",
         BasudebMallik: "বাসুদেব মল্লিক",
         SobhanBhutto: "আব্দুস সোবহান ভূট্টো",
+        oflineRutine: "সকল অফলাইন রুটিন",
+        onlineRutine: "সকল অনলাইন রুটিন",
+        allexamRutine: "সকল পরীক্ষার রুটিন",
+        allacudemicRutine: "সকল একাডেমিক সিলেবাস",
+        Allcalendars: "সকল বর্ষপঞ্জি",
+        studentuni: "শিক্ষার্থী ইউনিফর্ম",
     },
     en: {
         campous: "Campus",
@@ -323,6 +329,12 @@ const translations = {
         chandonbanik: "Chandon Banik",
         BasudebMallik: "Basudeb Mallik",
         SobhanBhutto: "Abdus Sobhan Bhutto",
+        oflineRutine: "All offline routines",
+        onlineRutine: "All online routines",
+        allexamRutine: "All exam routines",
+        allacudemicRutine: "All academic syllabus",
+        Allcalendars: "All calendars",
+        studentuni: "Student uniform",
     }
 };
 function setLanguage(language) {
