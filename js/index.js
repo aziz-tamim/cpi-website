@@ -172,6 +172,7 @@ const translations = {
         kaderpatwary: "আব্দুল কাদের পাটোয়ারী",
         chandonbanik: "চন্দন বণিক",
         BasudebMallik: "বাসুদেব মল্লিক",
+        SobhanBhutto: "আব্দুস সোবহান ভূট্টো",
     },
     en: {
         campous: "Campus",
@@ -321,6 +322,7 @@ const translations = {
         kaderpatwary: "Abdul Quader Patwary",
         chandonbanik: "Chandon Banik",
         BasudebMallik: "Basudeb Mallik",
+        SobhanBhutto: "Abdus Sobhan Bhutto",
     }
 };
 function setLanguage(language) {
