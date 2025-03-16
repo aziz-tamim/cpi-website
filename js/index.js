@@ -179,6 +179,8 @@ const translations = {
         allacudemicRutine: "সকল একাডেমিক সিলেবাস",
         Allcalendars: "সকল বর্ষপঞ্জি",
         studentuni: "শিক্ষার্থী ইউনিফর্ম",
+        allobbontorin: "সকল অভ্যন্তরীণ পরীক্ষার ফলাফল",
+        alljobcorner: "সকল জব কর্ণার",
     },
     en: {
         campous: "Campus",
@@ -335,6 +337,8 @@ const translations = {
         allacudemicRutine: "All academic syllabus",
         Allcalendars: "All calendars",
         studentuni: "Student uniform",
+        allobbontorin: "All internal exam results",
+        alljobcorner: "All Job Corners",
     }
 };
 function setLanguage(language) {

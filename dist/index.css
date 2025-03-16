@@ -175,7 +175,7 @@ p, li {
         grid-gap: 16px;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .teacher_section {
         display: grid;
         grid-template-columns: auto;
