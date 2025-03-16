@@ -169,4 +169,16 @@ p, li {
         align-items: center;
         flex-direction: column;
     }
+    .teacher_section {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 16px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .teacher_section {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 16px;
+    }
 }
