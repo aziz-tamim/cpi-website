@@ -1,4 +1,4 @@
-///// swiper slider javaScript
+///swiper slider javaScript
 var swiper = new Swiper(".mySwiper", {
     autoplay: {
         delay: 3000,
@@ -8,7 +8,7 @@ var swiper = new Swiper(".mySwiper", {
       speed: 500
 });
 
-///// mobile menu javaScript
+/// mobile menu javaScript
 document.addEventListener("DOMContentLoaded", function () {
     const menuToggle = document.getElementById("menuToggle");
     const menuIcon = document.getElementById("menuIcon");
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-///// language change javaScript
+/// language change javaScript
 const translations = {
     bn: {
         campous: "ক্যাম্পাস",
