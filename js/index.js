@@ -181,6 +181,8 @@ const translations = {
         studentuni: "শিক্ষার্থী ইউনিফর্ম",
         allobbontorin: "সকল অভ্যন্তরীণ পরীক্ষার ফলাফল",
         alljobcorner: "সকল জব কর্ণার",
+        nirbahiporisalok: "নির্বাহী পরিচালক",
+        Academicporisalok: "একাডেমিক পরিচালক",
     },
     en: {
         campous: "Campus",
@@ -339,6 +341,8 @@ const translations = {
         studentuni: "Student uniform",
         allobbontorin: "All internal exam results",
         alljobcorner: "All Job Corners",
+        nirbahiporisalok: "Executive Director",
+        Academicporisalok: "Academic Director",
     }
 };
 function setLanguage(language) {
