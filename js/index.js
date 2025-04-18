@@ -1,11 +1,11 @@
 ///swiper slider javaScript
 var swiper = new Swiper(".mySwiper", {
     autoplay: {
-        delay: 3000,
+        delay: 1000,
         disableOnInteraction: false,
       },
       loop: true,
-      speed: 500
+      speed: 800
 });
 
 /// mobile menu javaScript
