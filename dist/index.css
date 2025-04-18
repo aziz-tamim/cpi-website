@@ -1,3 +1,7 @@
+::selection {
+    background-color: #473dad;
+    color: #fff;
+}
 p, li {
     font-weight: 400 !important;
 }
