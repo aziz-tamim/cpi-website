@@ -183,6 +183,9 @@ const translations = {
         alljobcorner: "সকল জব কর্ণার",
         nirbahiporisalok: "নির্বাহী পরিচালক",
         Academicporisalok: "একাডেমিক পরিচালক",
+        Honorable_director: "সম্মানিত পরিচালক",
+        Residential_Director: "আবাসিক পরিচালক",
+        Finance_Director: "অর্থ পরিচালক",
     },
     en: {
         campous: "Campus",
@@ -343,6 +346,9 @@ const translations = {
         alljobcorner: "All Job Corners",
         nirbahiporisalok: "Executive Director",
         Academicporisalok: "Academic Director",
+        Honorable_director: "Honorable director",
+        Residential_Director: "Residential Director",
+        Finance_Director: "Finance Director",
     }
 };
 function setLanguage(language) {
