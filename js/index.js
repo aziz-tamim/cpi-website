@@ -8,7 +8,6 @@ var swiper = new Swiper(".mySwiper", {
       speed: 800
 });
 
-/// mobile menu javaScript
 document.addEventListener("DOMContentLoaded", function () {
     const menuToggle = document.getElementById("menuToggle");
     const menuIcon = document.getElementById("menuIcon");
@@ -16,9 +15,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const mobileMenu = document.getElementById("mobileMenu");
 
     menuToggle.addEventListener("click", function () {
-        mobileMenu.classList.toggle("hidden");
         menuIcon.classList.toggle("hidden");
         closeIcon.classList.toggle("hidden");
+
+        if (mobileMenu.classList.contains("hidden")) {
+            mobileMenu.classList.remove("hidden");
+            mobileMenu.classList.add("animate-slide-down");
+        } else {
+            mobileMenu.classList.add("hidden");
+            mobileMenu.classList.remove("animate-slide-down");
+        }
     });
 });
 
