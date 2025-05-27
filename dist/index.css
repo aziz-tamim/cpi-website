@@ -176,10 +176,9 @@ p, li {
         padding: 23px;
     }
     .home_menu {
-        /* display: none !important; */
         position: absolute;
         top: 12px;
-        right: 48px;
+        right: 50px;
     }
     [class*="group"] button {
         border: none !important;
