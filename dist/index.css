@@ -1,3 +1,7 @@
+::selection {
+    background-color: #473dad;
+    color: #fff;
+}
 p, li {
     font-weight: 400 !important;
 }
@@ -101,6 +105,22 @@ p, li {
     top: 0px;
     right: 0px;
 }
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-slide-down {
+    animation: slideDown 0.4s ease forwards;
+}
+
 .MuiSvgIcon-root {
     width: 24px;
     height: 24px;
@@ -156,7 +176,9 @@ p, li {
         padding: 23px;
     }
     .home_menu {
-        display: none !important;
+        position: absolute;
+        top: 12px;
+        right: 50px;
     }
     [class*="group"] button {
         border: none !important;

@@ -1,14 +1,13 @@
-///// swiper slider javaScript
+///swiper slider javaScript
 var swiper = new Swiper(".mySwiper", {
     autoplay: {
-        delay: 3000,
+        delay: 1000,
         disableOnInteraction: false,
       },
       loop: true,
-      speed: 500
+      speed: 800
 });
 
-///// mobile menu javaScript
 document.addEventListener("DOMContentLoaded", function () {
     const menuToggle = document.getElementById("menuToggle");
     const menuIcon = document.getElementById("menuIcon");
@@ -16,13 +15,20 @@ document.addEventListener("DOMContentLoaded", function () {
     const mobileMenu = document.getElementById("mobileMenu");
 
     menuToggle.addEventListener("click", function () {
-        mobileMenu.classList.toggle("hidden");
         menuIcon.classList.toggle("hidden");
         closeIcon.classList.toggle("hidden");
+
+        if (mobileMenu.classList.contains("hidden")) {
+            mobileMenu.classList.remove("hidden");
+            mobileMenu.classList.add("animate-slide-down");
+        } else {
+            mobileMenu.classList.add("hidden");
+            mobileMenu.classList.remove("animate-slide-down");
+        }
     });
 });
 
-///// language change javaScript
+/// language change javaScript
 const translations = {
     bn: {
         campous: "ক্যাম্পাস",
@@ -181,6 +187,12 @@ const translations = {
         studentuni: "শিক্ষার্থী ইউনিফর্ম",
         allobbontorin: "সকল অভ্যন্তরীণ পরীক্ষার ফলাফল",
         alljobcorner: "সকল জব কর্ণার",
+        nirbahiporisalok: "নির্বাহী পরিচালক",
+        Academicporisalok: "একাডেমিক পরিচালক",
+        Honorable_director: "সম্মানিত পরিচালক",
+        Residential_Director: "আবাসিক পরিচালক",
+        Finance_Director: "অর্থ পরিচালক",
+        ictclubinformation: "কমপ্যাক্ট পলিটেকনিক ইনস্টিটিউট আইসিটি ক্লাব গঠনের মাধ্যমে শিক্ষার্থীরা বিভিন্নভাবে উপকৃত হবে। এই ক্লাব শিক্ষার্থীদের প্রযুক্তিগত দক্ষতা বাড়াতে সহায়তা করে, যেমন কম্পিউটার চালনা, প্রোগ্রামিং, ওয়েব ডেভেলপমেন্ট, গ্রাফিক ডিজাইন প্রভৃতি বিষয়ে। ক্লাবের মাধ্যমে শিক্ষার্থীরা হাতে-কলমে কাজ করার সুযোগ পায়, যা তাদের বাস্তবভিত্তিক অভিজ্ঞতা অর্জনে সহায়তা করে। এছাড়া ক্লাবে নিয়মিত ওয়ার্কশপ, সেমিনার ও ট্রেনিং সেশনের আয়োজন করা হয়, যেখানে শিক্ষার্থীরা আধুনিক প্রযুক্তি সম্পর্কে জ্ঞান লাভ করে। বিভিন্ন প্রতিযোগিতা, যেমন প্রোগ্রামিং কনটেস্ট, আইটি কুইজ, এবং ডিজাইন চ্যালেঞ্জ শিক্ষার্থীদের মধ্যে প্রতিযোগিতামূলক মনোভাব তৈরি করে ও পুরস্কার অর্জনের সুযোগ দেয়। ক্লাবের কার্যক্রমে অংশগ্রহণের মাধ্যমে শিক্ষার্থীরা টিমওয়ার্ক, নেতৃত্ব ও সমস্যা সমাধানের দক্ষতা অর্জন করে। এই ক্লাব ভবিষ্যতে আইটি পেশায় আগ্রহী শিক্ষার্থীদের জন্য একটি শক্তিশালী ভিত্তি তৈরি করে এবং ক্যারিয়ার গঠনে সহায়ক ভূমিকা রাখে। সর্বোপরি, আইসিটি ক্লাব শিক্ষার্থীদের সৃজনশীলতা, উদ্ভাবনী চিন্তাভাবনা এবং প্রযুক্তি ব্যবহারের সক্ষমতা বাড়িয়ে তোলে, যা তাদেরকে একজন দক্ষ ও সচেতন প্রযুক্তিবিদ হিসেবে গড়ে তুলতে সাহায্য করে।",
     },
     en: {
         campous: "Campus",
@@ -339,6 +351,12 @@ const translations = {
         studentuni: "Student uniform",
         allobbontorin: "All internal exam results",
         alljobcorner: "All Job Corners",
+        nirbahiporisalok: "Executive Director",
+        Academicporisalok: "Academic Director",
+        Honorable_director: "Honorable director",
+        Residential_Director: "Residential Director",
+        Finance_Director: "Finance Director",
+        ictclubinformation: "The formation of the ICT (Information and Communication Technology) Club at Compact Polytechnic Institute brings numerous benefits for students. This club helps students enhance their technological skills, such as computer operation, programming, web development, and graphic design. Through the club, students gain hands-on experience by working on real-life projects. It also organizes regular workshops, seminars, and training sessions, enabling students to stay updated with modern technologies. Various competitions—such as programming contests, IT quizzes, and design challenges—foster a spirit of competition and provide opportunities to earn recognition and rewards. By participating in club activities, students develop teamwork, leadership, and problem-solving abilities. This club lays a strong foundation for those interested in pursuing careers in the IT field and plays a vital role in their professional development. Ultimately, the ICT Club enhances students' creativity, innovative thinking, and technological competence, helping them become skilled and informed technologists.",
     }
 };
 function setLanguage(language) {
